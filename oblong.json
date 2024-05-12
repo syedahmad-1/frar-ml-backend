@@ -1,0 +1,58 @@
+[
+    {
+        "gender": "male",
+        "name": "eyewear",
+        "type": "Wayfarer Sunglasses",
+        "imgUrl": "https://example.com/wayfarer-sunglasses.jpg",
+        "desc": "Wayfarer sunglasses with bold frames can add width to the face, balancing the length of an oblong face shape."
+    },
+    {
+        "gender": "male",
+        "name": "hairstyle",
+        "type": "Textured Crop",
+        "imgUrl": "https://example.com/textured-crop.jpg",
+        "desc": "A textured crop with volume on top can add width to the face and reduce the appearance of length."
+    },
+    {
+        "gender": "male",
+        "name": "beardstyle",
+        "type": "Full Beard",
+        "imgUrl": "https://example.com/full-beard.jpg",
+        "desc": "A full beard can help add width to the lower half of the face, balancing the length of an oblong face shape."
+    },
+    {
+        "gender": "male",
+        "name": "cap",
+        "type": "Flat Cap",
+        "imgUrl": "https://example.com/flat-cap.jpg",
+        "desc": "A flat cap with a rounded shape can add width to the top of the head, balancing an oblong face shape."
+    },
+    {
+        "gender": "female",
+        "name": "eyewear",
+        "type": "Rectangular Frames",
+        "imgUrl": "https://example.com/rectangular-frames.jpg",
+        "desc": "Rectangular frames can add width to the face and create balance for an oblong face shape."
+    },
+    {
+        "gender": "female",
+        "name": "hairstyle",
+        "type": "Layered Bob",
+        "imgUrl": "https://example.com/layered-bob.jpg",
+        "desc": "A layered bob can add volume and width to the sides of the face, balancing an oblong face shape."
+    },
+    {
+        "gender": "female",
+        "name": "makeup",
+        "type": "Soft Contouring",
+        "imgUrl": "https://example.com/soft-contouring.jpg",
+        "desc": "Soft contouring can help add width to the forehead and jawline, creating balance for an oblong face shape."
+    },
+    {
+        "gender": "female",
+        "name": "earrings",
+        "type": "Round Stud Earrings",
+        "imgUrl": "https://example.com/round-stud-earrings.jpg",
+        "desc": "Round stud earrings can add width to the face and create balance for an oblong face shape."
+    }
+]

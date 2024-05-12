@@ -1,0 +1,59 @@
+
+[
+    {
+        "gender": "male",
+        "name": "eyewear",
+        "type": "Round Frames",
+        "imgUrl": "https://example.com/round-frames.jpg",
+        "desc": "Round frames can soften the angles of a square face, adding a touch of contrast and balance."
+    },
+    {
+        "gender": "male",
+        "name": "hairstyle",
+        "type": "Textured Quiff",
+        "imgUrl": "https://example.com/textured-quiff.jpg",
+        "desc": "A textured quiff with volume on top can help elongate the face and soften the strong jawline."
+    },
+    {
+        "gender": "male",
+        "name": "beardstyle",
+        "type": "Light Stubble",
+        "imgUrl": "https://example.com/light-stubble.jpg",
+        "desc": "Light stubble can help soften the angles of a square jawline, creating a more balanced look."
+    },
+    {
+        "gender": "male",
+        "name": "cap",
+        "type": "Beanie",
+        "imgUrl": "https://example.com/beanie.jpg",
+        "desc": "A beanie with a slightly slouchy fit can add some softness to the angles of a square face."
+    },
+    {
+        "gender": "female",
+        "name": "eyewear",
+        "type": "Oval Frames",
+        "imgUrl": "https://example.com/oval-frames.jpg",
+        "desc": "Oval frames can add a soft contrast to the strong angles of a square face, creating a more balanced look."
+    },
+    {
+        "gender": "female",
+        "name": "hairstyle",
+        "type": "Soft Layers",
+        "imgUrl": "https://example.com/soft-layers.jpg",
+        "desc": "Soft layers can help soften the angles of a square face, creating a more feminine and balanced look."
+    },
+    {
+        "gender": "female",
+        "name": "makeup",
+        "type": "Soft Contouring",
+        "imgUrl": "https://example.com/soft-contouring.jpg",
+        "desc": "Soft contouring can help add subtle definition to the angles of a square face, creating a more sculpted look."
+    },
+    {
+        "gender": "female",
+        "name": "earrings",
+        "type": "Hoop Earrings",
+        "imgUrl": "https://example.com/hoop-earrings.jpg",
+        "desc": "Hoop earrings can add a touch of softness and femininity to a square face, complementing its angles."
+    }
+]

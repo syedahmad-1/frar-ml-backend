@@ -6,6 +6,7 @@ from mtcnn import MTCNN
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt 
 import numpy as np 
+import json
 
 model = load_model('C:/Users/sayea/Documents/express-project/mycontacts-backend/python/vgg16-transfer-learning-final.h5')
 
@@ -94,8 +95,6 @@ def extract_face(img, target_size=(224,224)):
     sqr_img = cv2.resize(new_face, target_size)   
     return sqr_img
 
-y_label_dict = {0: 'Heart', 1: 'Oblong', 2: 'Oval', 3: 'Round', 4: 'Square'}
-
 
 y_label_dict = {0: 'Heart', 1: 'Oblong', 2: 'Oval', 3: 'Round', 4: 'Square'}
 
@@ -116,17 +115,25 @@ def predict_face_shape(img_array):
         pred = model.predict(test_img)
         probabilities = np.round(pred.flatten() * 100, 2)
         prediction = {y_label_dict[i]: round(float(probabilities[i]), 2) for i in range(len(y_label_dict))}
+        result = max(prediction, key=prediction.get)
+        prediction['result'] = result
         print(prediction)
-        plt.imshow(new_img)
         return prediction
 
     except Exception as e:
         print(f'Oops! Something went wrong. Please try again.')
-        return {'error': 'Face Shape Not found'}
+        return {'error': 'Face Shape Not Detectable'}
+
 
 
 # Create the Flask app
 app = Flask(__name__)
+
+@app.route('/hello', methods=['GET'])
+def hello():
+    return jsonify({
+        "hello":"world"
+    })
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -138,8 +145,28 @@ def predict():
         if image_file.filename.lower().endswith(('.png', '.jpg', '.jpeg')):
             image = cv2.imdecode(np.frombuffer(image_file.read(), np.uint8), cv2.IMREAD_COLOR)
 
-            result = predict_face_shape(image)
-            return jsonify(result)
+            recommendation = {}
+
+            face_shape = predict_face_shape(image)
+            if face_shape['result'] in ['Heart', 'Square', 'Oval', 'Oblong', 'Round']:
+                file_name = face_shape['result']
+                file_path = f'{file_name.lower()}.json'
+                try:
+                    with open(file_path, 'r') as file:
+                        recommendation = json.load(file)
+                except Exception as e:
+                    print(f"Error opening file: {e}")
+            else:
+                recommendation = {'message': 'No recommendation found for this face shape'}
+
+
+
+            response = {
+                'result': face_shape,
+                'recommendation': recommendation
+            }
+
+            return jsonify(response)
 
         else:
             return jsonify({'error': 'Invalid image format. Supported formats: PNG, JPG, JPEG'}), 400

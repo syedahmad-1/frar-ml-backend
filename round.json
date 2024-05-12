@@ -1,0 +1,58 @@
+[
+    {
+        "gender": "male",
+        "name": "eyewear",
+        "type": "Angular Frames",
+        "imgUrl": "https://example.com/angular-frames.jpg",
+        "desc": "Angular frames add definition to round faces by creating contrast with the curves of the face."
+    },
+    {
+        "gender": "male",
+        "name": "hairstyle",
+        "type": "Textured Crop",
+        "imgUrl": "https://example.com/textured-crop.jpg",
+        "desc": "Textured crops with short sides and a bit of height on top can elongate the face and add angles."
+    },
+    {
+        "gender": "male",
+        "name": "beardstyle",
+        "type": "Square Beard",
+        "imgUrl": "https://example.com/square-beard.jpg",
+        "desc": "A square beard can help create the illusion of a more angular jawline, balancing the roundness of the face."
+    },
+    {
+        "gender": "male",
+        "name": "cap",
+        "type": "Flat Caps",
+        "imgUrl": "https://example.com/flat-caps.jpg",
+        "desc": "Flat caps can add some height to the crown of the head, creating a more elongated look for round faces."
+    },
+    {
+        "gender": "female",
+        "name": "eyewear",
+        "type": "Cat-Eye Frames",
+        "imgUrl": "https://example.com/cat-eye-frames.jpg",
+        "desc": "Cat-eye frames can add angles to a round face, creating a more balanced and elongated look."
+    },
+    {
+        "gender": "female",
+        "name": "hairstyle",
+        "type": "Long Bob",
+        "imgUrl": "https://example.com/long-bob.jpg",
+        "desc": "A long bob that falls just below the chin can create the illusion of a more oval face shape."
+    },
+    {
+        "gender": "female",
+        "name": "earrings",
+        "type": "Dangle Earrings",
+        "imgUrl": "https://example.com/dangle-earrings.jpg",
+        "desc": "Dangle earrings can elongate the face, creating a more balanced look for round faces."
+    },
+    {
+        "gender": "female",
+        "name": "makeup",
+        "type": "Contouring",
+        "imgUrl": "https://example.com/contouring-makeup.jpg",
+        "desc": "Contouring can help create shadows and definition along the sides of the face, especially on the temples, below the cheekbones, and along the jawline, to create a more sculpted look."
+    }
+]

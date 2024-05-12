@@ -1,0 +1,53 @@
+
+    [
+        {
+            "gender": "male",
+            "name":"eyewear",
+            "type": "Aviator Sunglasses",
+            "imgUrl": "https://example.com/aviator-sunglasses.jpg",
+            "desc": "Aviator sunglasses with a slight curve can complement the wider forehead and narrower jawline of a heart face shape."
+        },
+        {
+            "name":"hairstyle",
+            "gender": "male",
+            "type": "Side Part",
+            "imgUrl": "https://example.com/side-part.jpg",
+            "desc": "A side part hairstyle can help balance the wider forehead of a heart face shape."
+        },
+        {
+            "name":"beardstyle",
+            "gender": "male",
+            "type": "Goatee",
+            "imgUrl": "https://example.com/goatee.jpg",
+            "desc": "A goatee can help add some width to the chin area, balancing the wider forehead of a heart face shape."
+        },
+
+        {
+            "name":"eyewear",
+            "gender": "female",
+            "type": "Cat-Eye Frames",
+            "imgUrl": "https://example.com/cat-eye-frames.jpg",
+            "desc": "Cat-eye frames can complement the wider forehead and narrower jawline of a heart face shape."
+        },
+        {
+            "type": "Long Wavy Hair",
+            "gender": "female",
+            "name":"hairstyle",
+            "imgUrl": "https://example.com/long-wavy-hair.jpg",
+            "desc": "Long, wavy hair can soften the angles of a heart face shape and add balance."
+        },
+        {
+            "name":"makeup",
+            "gender": "female",
+            "type": "Soft Contouring",
+            "imgUrl": "https://example.com/soft-contouring.jpg",
+            "desc": "Soft contouring can help balance the wider forehead and narrower jawline of a heart face shape."
+        },
+        {
+            "name":"earrings",
+            "gender": "female",
+            "type": "Chandelier Earrings",
+            "imgUrl": "https://example.com/chandelier-earrings.jpg",
+            "desc": "Chandelier earrings can add width and balance to the chin area of a heart face shape."
+        }
+    ]

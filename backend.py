@@ -122,7 +122,7 @@ def predict_face_shape(img_array):
 
     except Exception as e:
         print(f'Oops! Something went wrong. Please try again.')
-        return {'error': 'Face Shape Not Detectable'}
+        return {'error': str(e)}
 
 
 
@@ -148,6 +148,8 @@ def predict():
             recommendation = {}
 
             face_shape = predict_face_shape(image)
+            print(face_shape)
+
             if face_shape['result'] in ['Heart', 'Square', 'Oval', 'Oblong', 'Round']:
                 file_name = face_shape['result']
                 file_path = f'{file_name.lower()}.json'

@@ -1,58 +1,64 @@
-[
-    {
-        "gender": "male",
-        "name": "eyewear",
-        "type": "Wayfarer Sunglasses",
-        "imgUrl": "https://example.com/wayfarer-sunglasses.jpg",
-        "desc": "Wayfarer sunglasses with bold frames can add width to the face, balancing the length of an oblong face shape."
-    },
-    {
-        "gender": "male",
-        "name": "hairstyle",
-        "type": "Textured Crop",
-        "imgUrl": "https://example.com/textured-crop.jpg",
-        "desc": "A textured crop with volume on top can add width to the face and reduce the appearance of length."
-    },
-    {
-        "gender": "male",
-        "name": "beardstyle",
-        "type": "Full Beard",
-        "imgUrl": "https://example.com/full-beard.jpg",
-        "desc": "A full beard can help add width to the lower half of the face, balancing the length of an oblong face shape."
-    },
-    {
-        "gender": "male",
-        "name": "cap",
-        "type": "Flat Cap",
-        "imgUrl": "https://example.com/flat-cap.jpg",
-        "desc": "A flat cap with a rounded shape can add width to the top of the head, balancing an oblong face shape."
-    },
-    {
-        "gender": "female",
-        "name": "eyewear",
-        "type": "Rectangular Frames",
-        "imgUrl": "https://example.com/rectangular-frames.jpg",
-        "desc": "Rectangular frames can add width to the face and create balance for an oblong face shape."
-    },
-    {
-        "gender": "female",
-        "name": "hairstyle",
-        "type": "Layered Bob",
-        "imgUrl": "https://example.com/layered-bob.jpg",
-        "desc": "A layered bob can add volume and width to the sides of the face, balancing an oblong face shape."
-    },
-    {
-        "gender": "female",
-        "name": "makeup",
-        "type": "Soft Contouring",
-        "imgUrl": "https://example.com/soft-contouring.jpg",
-        "desc": "Soft contouring can help add width to the forehead and jawline, creating balance for an oblong face shape."
-    },
-    {
-        "gender": "female",
-        "name": "earrings",
-        "type": "Round Stud Earrings",
-        "imgUrl": "https://example.com/round-stud-earrings.jpg",
-        "desc": "Round stud earrings can add width to the face and create balance for an oblong face shape."
-    }
-]
+{
+    "male":[
+        {
+            "gender": "male",
+            "name": "eyewear",
+            "title": "Wayfarer Sunglasses",
+            "imgUrl": "https://m.media-amazon.com/images/I/41YCu1qZtqL._SX679_.jpg",
+            "desc": "Wayfarer sunglasses with bold frames can add width to the face, balancing the length of an oblong face shape."
+        },
+        {
+            "gender": "male",
+            "name": "hairstyle",
+            "title": "Textured Crop",
+            "imgUrl": "https://cdn.shopify.com/s/files/1/0662/3537/files/BestHaircutsForOvalFacesMenCrewCut.png?v=1668526721",
+            "desc": "A textured crop with volume on top can add width to the face and reduce the appearance of length."
+        },
+        {
+            "gender": "male",
+            "name": "beardstyle",
+            "title": "Full Beard",
+            "imgUrl": "https://i.pinimg.com/564x/bf/7e/22/bf7e224b04566b86cc170543e6551089.jpg",
+            "desc": "A full beard can help add width to the lower half of the face, balancing the length of an oblong face shape."
+        },
+        {
+            "gender": "male",
+            "name": "cap",
+            "title": "Flat Cap",
+            "imgUrl": "https://furorjeans.com/cdn/shop/products/0n9a1812-fac22-050.jpg?v=1683071593",
+            "desc": "A flat cap with a rounded shape can add width to the top of the head, balancing an oblong face shape."
+        }
+    ],
+
+    "female":[
+        {
+            "gender": "female",
+            "name": "eyewear",
+            "title": "Rectangular Frames",
+            "imgUrl": "https://m.media-amazon.com/images/I/51U-njMfZ-S._SX679_.jpg",
+            "desc": "Rectangular frames can add width to the face and create balance for an oblong face shape."
+        },
+        {
+            "gender": "female",
+            "name": "hairstyle",
+            "title": "Layered Bob",
+            "imgUrl": "https://images.saymedia-content.com/.image/t_share/MTc2NDUxNDU0NjA3OTYwMDI2/hairstyles_oblong_faces.jpg",
+            "desc": "A layered bob can add volume and width to the sides of the face, balancing an oblong face shape."
+        },
+        {
+            "gender": "female",
+            "name": "makeup",
+            "title": "Soft Contouring",
+            "imgUrl": "https://www.shutterstock.com/image-photo/contouringmake-woman-face-contour-highlight-600nw-345049583.jpg",
+            "desc": "Soft contouring can help add width to the forehead and jawline, creating balance for an oblong face shape."
+        },
+        {
+            "gender": "female",
+            "name": "earrings",
+            "title": "Round Stud Earrings",
+            "imgUrl": "https://www.nomination.com/media/wysiwyg/News/COPERTINA-BLOG-750X720_3__1.jpg",
+            "desc": "Round stud earrings can add width to the face and create balance for an oblong face shape."
+        }
+    ]
+    
+}

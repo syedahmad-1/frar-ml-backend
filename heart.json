@@ -1,53 +1,59 @@
 
-    [
-        {
-            "gender": "male",
-            "name":"eyewear",
-            "type": "Aviator Sunglasses",
-            "imgUrl": "https://example.com/aviator-sunglasses.jpg",
-            "desc": "Aviator sunglasses with a slight curve can complement the wider forehead and narrower jawline of a heart face shape."
-        },
-        {
-            "name":"hairstyle",
-            "gender": "male",
-            "type": "Side Part",
-            "imgUrl": "https://example.com/side-part.jpg",
-            "desc": "A side part hairstyle can help balance the wider forehead of a heart face shape."
-        },
-        {
-            "name":"beardstyle",
-            "gender": "male",
-            "type": "Goatee",
-            "imgUrl": "https://example.com/goatee.jpg",
-            "desc": "A goatee can help add some width to the chin area, balancing the wider forehead of a heart face shape."
-        },
+    {
+        "male":[
+            {
+                "gender": "male",
+                "name":"eyewear",
+                "title": "Aviator Sunglasses",
+                "imgUrl": "https://m.media-amazon.com/images/I/41ZX47JRNML._AC_UL480_FMwebp_QL65_.jpg",
+                "desc": "Aviator sunglasses with a slight curve can complement the wider forehead and narrower jawline of a heart face shape."
+            },
+            {
+                "name":"hairstyle",
+                "gender": "male",
+                "title": "Side Part",
+                "imgUrl": "https://haircutinspiration.com/wp-content/uploads/Natural-Side-Part-and-Scissor-Crop.jpg",
+                "desc": "A side part hairstyle can help balance the wider forehead of a heart face shape."
+            },
+            {
+                "name":"beardstyle",
+                "gender": "male",
+                "title": "Goatee",
+                "imgUrl": "https://cdn.shopify.com/s/files/1/0412/9551/1703/files/gosling.jpg?v=1699485667",
+                "desc": "A goatee can help add some width to the chin area, balancing the wider forehead of a heart face shape."
+            }
+        ],
+        
 
-        {
-            "name":"eyewear",
-            "gender": "female",
-            "type": "Cat-Eye Frames",
-            "imgUrl": "https://example.com/cat-eye-frames.jpg",
-            "desc": "Cat-eye frames can complement the wider forehead and narrower jawline of a heart face shape."
-        },
-        {
-            "type": "Long Wavy Hair",
-            "gender": "female",
-            "name":"hairstyle",
-            "imgUrl": "https://example.com/long-wavy-hair.jpg",
-            "desc": "Long, wavy hair can soften the angles of a heart face shape and add balance."
-        },
-        {
-            "name":"makeup",
-            "gender": "female",
-            "type": "Soft Contouring",
-            "imgUrl": "https://example.com/soft-contouring.jpg",
-            "desc": "Soft contouring can help balance the wider forehead and narrower jawline of a heart face shape."
-        },
-        {
-            "name":"earrings",
-            "gender": "female",
-            "type": "Chandelier Earrings",
-            "imgUrl": "https://example.com/chandelier-earrings.jpg",
-            "desc": "Chandelier earrings can add width and balance to the chin area of a heart face shape."
-        }
-    ]
+        "female":[
+            {
+                "name":"eyewear",
+                "gender": "female",
+                "title": "Cat-Eye Frames",
+                "imgUrl": "https://m.media-amazon.com/images/I/41jmlrpTYTL._SX679_.jpg",
+                "desc": "Cat-eye frames can complement the wider forehead and narrower jawline of a heart face shape."
+            },
+            {
+                "title": "Long Straighten Hair",
+                "gender": "female",
+                "name":"hairstyle",
+                "imgUrl": "https://www.southernliving.com/thmb/IDw4xVWxObvgtwM2liX1NAnxF5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/charlize-1-1d282c2e03c8482580482e001df9e58a.jpg",
+                "desc": "Long, wavy hair can soften the angles of a heart face shape and add balance."
+            },
+            {
+                "name":"makeup",
+                "gender": "female",
+                "title": "Soft Contouring",
+                "imgUrl": "https://cdn.shopify.com/s/files/1/0473/8904/8992/files/Contouring_a_Triangular_Face_480x480.jpg?v=1652880661",
+                "desc": "Soft contouring can help balance the wider forehead and narrower jawline of a heart face shape."
+            },
+            {
+                "name":"earrings",
+                "gender": "female",
+                "title": "Chandelier Earrings",
+                "imgUrl": "https://i0.wp.com/mighzalalarab.com/wp-content/uploads/2023/02/DSC_0243.jpg?fit=1200%2C1200&ssl=1",
+                "desc": "Chandelier earrings can add width and balance to the chin area of a heart face shape."
+            }
+        ]
+   
+    }

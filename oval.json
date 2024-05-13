@@ -1,59 +1,65 @@
 
-[
-    {
-        "name": "eyewear",
-        "gender": "male",
-        "title": "Rectangle Frames",
-        "imgUrl": "https://m.media-amazon.com/images/I/41xpblzs3lS._SX679_.jpg",
-        "desc": "Rectangular frames balance oval faces by adding width and contrasting soft curves."
-    },
-    {
-        "name": "cap",
-        "gender": "male",
-        "title": "Baseball Caps",
-        "imgUrl": "https://m.media-amazon.com/images/I/41AZswWb7iL._SX679_.jpg",
-        "desc": "The classic baseball cap complements oval faces because the structured crown and curved brim don't overwhelm or add unwanted length."
-    },
-    {
-        "name": "hairstyle",
-        "gender": "male",
-        "title": "Medium Length with Volume",
-        "imgUrl": "https://cdn.shopify.com/s/files/1/0639/1237/8602/files/Messy_Quiff_hairstyle_480x480.jpg?v=1704368171",
-        "desc": "Pompadours, quiffs, and side parts with volume on top elongate the face slightly and create a stylish look."
-    },
-    {
-        "name": "beardstyle",
-        "gender": "male",
-        "title": "Short & Defined",
-        "imgUrl": "https://images.ctfassets.net/7tfi3razjgvb/7sFhNCmGTw4V9QlYnLkTfr/e0d1e1f53dfa9e8bc8aa6d00325d3057/Group_21184_2x-dt.jpg?fm=avif&q=70&w=1600",
-        "desc": "A neatly trimmed beard, stubble, or goatee keeps things clean-cut while adding definition to your jawline"
-    },
-    {
-        "name": "eyewear",
-        "gender": "female",
-        "title": "Rectangular Frames",
-        "imgUrl": "https://m.media-amazon.com/images/I/41xpblzs3lS._SX679_.jpg",
-        "desc": "Rectangular frames balance oval faces by adding width and contrasting soft curves."
-    },
-    {
-        "name": "makeup",
-        "gender": "female",
-        "title": "Softly Sculpted Oval Face Makeup",
-        "imgUrl": "https://m.media-amazon.com/images/I/41AZswWb7iL._SX679_.jpg",
-        "desc": "Oval faces can apply blush along hairline and cheeks for length, or near ears and jawline for width; highlight forehead, under-eye area, and chin for balance; use bronzer on cheeks, temples, and jawline for contour; keep brows neat with a soft arch and angle; and focus on long, thick lashes."
-    },
-    {
-        "name": "hairstyle",
-        "gender": "female",
-        "title": "Wavy Shoulder Length Hair",
-        "imgUrl": "https://i0.wp.com/www.hadviser.com/wp-content/uploads/2021/12/5-mid-length-haircut-for-oval-faces-CgNGG0UP5mG.jpg?resize=1038%2C1194&ssl=1",
-        "desc": "Long, flowing hair with or without layers is a timeless choice. Consider adding highlights or lowlights for extra depth."
-    },
-    {
-        "name": "earrings",
-        "gender": "female",
-        "title": "Square, triangle, or other geometric earrings",
-        "imgUrl": "https://i.etsystatic.com/11327914/r/il/0cd684/1655420176/il_570xN.1655420176_388w.jpg",
-        "desc": "Geometric earrings offer a stylish way to complement the natural beauty of an oval face. They add a touch of modern edge, define your features, and highlight the balanced proportions of your face shape"
-    }
-]
+{
+    "male":[
+        {
+            "name": "eyewear",
+            "gender": "male",
+            "title": "Rectangle Frames",
+            "imgUrl": "https://m.media-amazon.com/images/I/51XgKJxG5KS._SX679_.jpg",
+            "desc": "Rectangular frames balance oval faces by adding width and contrasting soft curves."
+        },
+        {
+            "name": "cap",
+            "gender": "male",
+            "title": "Baseball Caps",
+            "imgUrl": "https://m.media-amazon.com/images/I/41AZswWb7iL._SX679_.jpg",
+            "desc": "The classic baseball cap complements oval faces because the structured crown and curved brim don't overwhelm or add unwanted length."
+        },
+        {
+            "name": "hairstyle",
+            "gender": "male",
+            "title": "Medium Length with Volume",
+            "imgUrl": "https://cdn.shopify.com/s/files/1/0639/1237/8602/files/Messy_Quiff_hairstyle_480x480.jpg?v=1704368171",
+            "desc": "Pompadours, quiffs, and side parts with volume on top elongate the face slightly and create a stylish look."
+        },
+        {
+            "name": "beardstyle",
+            "gender": "male",
+            "title": "Short & Defined",
+            "imgUrl": "https://images.ctfassets.net/7tfi3razjgvb/7sFhNCmGTw4V9QlYnLkTfr/e0d1e1f53dfa9e8bc8aa6d00325d3057/Group_21184_2x-dt.jpg?fm=avif&q=70&w=1600",
+            "desc": "A neatly trimmed beard, stubble, or goatee keeps things clean-cut while adding definition to your jawline"
+        }
+    ],
+    
+    "female":[
+        {
+            "name": "eyewear",
+            "gender": "female",
+            "title": "Rectangular Frames",
+            "imgUrl": "https://m.media-amazon.com/images/I/41xpblzs3lS._SX679_.jpg",
+            "desc": "Rectangular frames balance oval faces by adding width and contrasting soft curves."
+        },
+        {
+            "name": "makeup",
+            "gender": "female",
+            "title": "Softly Sculpted Oval Face Makeup",
+            "imgUrl": "https://i.pinimg.com/originals/bc/ff/a7/bcffa77063bf9a3126e5de95af45ebb8.jpg",
+            "desc": "Oval faces can apply blush along hairline and cheeks for length, or near ears and jawline for width; highlight forehead, under-eye area, and chin for balance; use bronzer on cheeks, temples, and jawline for contour; keep brows neat with a soft arch and angle; and focus on long, thick lashes."
+        },
+        {
+            "name": "hairstyle",
+            "gender": "female",
+            "title": "Wavy Shoulder Length Hair",
+            "imgUrl": "https://i0.wp.com/www.hadviser.com/wp-content/uploads/2021/12/5-mid-length-haircut-for-oval-faces-CgNGG0UP5mG.jpg?resize=1038%2C1194&ssl=1",
+            "desc": "Long, flowing hair with or without layers is a timeless choice. Consider adding highlights or lowlights for extra depth."
+        },
+        {
+            "name": "earrings",
+            "gender": "female",
+            "title": "Square, triangle, or other geometric earrings",
+            "imgUrl": "https://cdn.shopify.com/s/files/1/0636/7746/4821/files/earrings-for-round-face-shape.jpg?v=1692585669",
+            "desc": "Geometric earrings offer a stylish way to complement the natural beauty of an oval face. They add a touch of modern edge, define your features, and highlight the balanced proportions of your face shape"
+        }
+    ]
+    
+}
